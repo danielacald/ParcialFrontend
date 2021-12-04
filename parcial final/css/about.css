@@ -1,0 +1,60 @@
+/*about us*/
+
+#about{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap
+  }
+  
+  #about article {
+    margin:15px;
+  }
+  
+  #about h3 {
+    margin: 15px;
+    color: #323851;
+    text-align: center;
+  }
+
+  .p-btn {
+      background-color: rgba(243, 97, 60, 0.7);
+      border-radius: 5%;
+      font-weight: bold;
+      
+  }
+
+  .btn-about{
+    background-color: #F3603B; /* naranja */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px ;
+    
+}
+#about button:hover {
+    background: rgba(51,51,51,0.5);
+}
+h3{
+    justify-content: center;
+}
+@media(min-width:1024px){
+
+    #about{
+      display: flex;
+      flex-direction: space-around;
+      flex-wrap: nowrap;
+    }
+    .btn-about{
+        display: flex;
+        justify-items: flex-end;
+    }
+    .dif{
+        display: flex;
+        justify-items: flex-end;
+    }
+
+  }

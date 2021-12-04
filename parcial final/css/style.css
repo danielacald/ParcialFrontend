@@ -1,0 +1,71 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(about.css);
+@import url(info.css);
+@import url(footermain.css);
+@import url(footer.css);
+
+*{
+ font-family: 'Be Vietnam Pro', sans-serif;
+ padding:0;
+ margin: 0;
+ box-sizing: border-box;
+ list-style: none;
+ text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background: #F3613C;
+  color: #fff;
+
+ /*position: fixed;*/
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.contenedorA{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header.contenedorA{
+  display:table;
+}
+
+.logo{
+  float: left;
+  
+}
+
+section{
+  width: 100%;
+}
+
+body{
+  background-image: url(../imagenes/bg-simplify-section-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: -38% 76%;
+  z-index: 20;
+}
+
+ main{
+   background-image:url(../imagenes/bg-simplify-section-mobile.svg) ;
+   background-repeat: no-repeat;
+   background-position: -38% 76%;
+   z-index: 20;
+ }
+
+@media(min-width:1024px){
+
+  .contenedorA{
+    width: 1000px;
+  }
+
+}
+
+
+

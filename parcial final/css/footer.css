@@ -1,0 +1,101 @@
+/*footer*/
+
+.piedepag {
+    display: flex;
+    align-items: center;
+    background-color: #1e1e26;
+    color: #ffffff;
+    padding: 2%;
+    height:500px;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    
+  }
+  
+  .sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: #ffffff;
+    z-index: 10;
+    
+  }
+  
+  .sociales a {
+    color:#ffffff;
+    text-decoration: none;
+  }
+  
+
+  #listasfooter {
+      color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+
+  }
+
+  .logospiedepag div ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+
+  }
+
+  .logospiedepag img {
+    padding-bottom: 10%;
+    margin: 3px;
+    color: #ffffff;
+  }
+
+  input{
+    
+    border: 2px solid rgb(182, 180, 180);
+    border-radius: 10px;
+    justify-content: space-around;
+  }
+
+  input[type=submit] {
+    background-color: #F3603B; /* naranja */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px ;
+    
+  }
+
+ .contenedorD {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+ }
+
+
+.containerE{
+    justify-content: flex-end;
+    order:-4;
+}
+
+@media (min-width:1024px){
+    
+    .piedepag {
+    height: 247px;    
+    display: flex;
+    flex-direction: space-around ;
+    flex-wrap: nowrap;
+    }
+
+    .containerE{
+    border: 15px;
+    }
+
+    #listasfooter{
+        display: flex;
+    }
+}

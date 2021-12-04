@@ -1,0 +1,152 @@
+#banner {
+    margin-top:50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    
+}
+
+.ilust {
+    width: 100%;
+    height: auto;
+    flex-grow: 95%
+}
+
+.img-ilust {
+    width: 100%;
+}
+
+#banner h1 {
+    font-size: 28px;
+
+}
+#banner .contenedorB {
+    top: 50%;
+    left: 50%;
+    transform: translateX(50%) translateY(-50);
+    color:#232C50;
+    margin:5%;
+    
+}
+
+#banner a{
+    margin-top: 10px;
+}
+.get-start{
+    background-color: #F3603B; /* naranja */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px ;
+    margin: 5%;
+    
+    
+}
+#banner button:hover {
+    background: rgba(51,51,51,0.5);
+}
+
+.contenedorB h1{
+  margin: 5%;
+}
+
+.contenedorB p{
+    border: 5%;
+}
+.contenedorB {
+    flex-grow: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+@media (min-width:480px){
+ #banner h1{
+     font-size: 48px;
+ }
+ #banner p {
+     margin-top: 25px;
+ }
+}
+
+@media  (min-width:768px){
+    #banner{
+        height: 300px;
+        overflow: hidden;
+        flex-direction: row;
+        display: flex;
+        
+        
+        
+    }
+    .ilust{
+        align-items: flex-end;
+         display: flex;
+
+    }
+    .contenedorB {
+        justify-items: space-around;
+        display: flex;
+        max-width: 100%;
+    }
+}
+
+@media (min-width:480px){
+    #banner h1{
+        font-size: 48px;
+    }
+    #banner p {
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+   }
+   
+   @media  (min-width:1024px){
+       #banner{
+           height: 400px;
+           overflow: hidden;
+           flex-direction: row;
+           display: flex;
+           justify-content: space-between;
+           margin-top: 5px;
+           width: 100%;
+       }
+       .ilust{
+           align-items:center;
+            display: flex;
+            width: 50%;
+            height: auto;
+            margin-right:70px;
+            
+       }
+       .contenedorB {
+           justify-items: space-around;
+           display: flex;
+           max-width: 100%;
+           
+        }
+
+        #banner p {
+           margin-top: 2px;
+           margin-left: -100px;
+           align-items:flex-start;
+           margin: 10px;
+           width: 439;
+           margin-right: 50px;
+        }
+
+        #banner h1 {
+            font-size: 30px;
+            align-items: flex-start;
+        
+        
+    }
+    
+}

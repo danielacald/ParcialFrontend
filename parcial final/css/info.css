@@ -1,0 +1,54 @@
+#info{
+    background: rgb(189, 189, 189);
+    color: #fff;
+    text-align: center;
+}
+
+#info .contenedorC {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.info-cars {
+    margin:20px;
+}
+
+.info-cars img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 4px solid #F3603B;
+}
+
+#info .get-start{
+    background-color: #F3603B; /* naranja */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 15px ;
+    margin: 15px;
+    
+}
+#info button:hover {
+    background: rgba(51,51,51,0.5);
+}
+
+@media  (min-width:1024px){
+
+    #tarjetas{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    #info .contenedorC{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+
+    }
+}
